@@ -1,0 +1,133 @@
+body{
+    /* background-color: blue; */
+    background-color: rgba(221, 221, 221, 221)
+
+}
+.paragraph{
+    font-size: 50px;
+    font-family: arial;
+    font-weight: bold;
+    color: red;
+    margin-left: 300px;
+    position: absolute;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+section .lift{
+    /* background-color: blueviolet; */
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.lift .face{
+    color: blue;
+    width: 100px;
+    margin-top: 200px;
+    margin-left: 250px;
+    font-size: 60px;
+    font-family: arial;
+    font-weight: bold;
+}
+.lift .text{
+    color: black;
+    width: 450px;   
+    margin-left: 250px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: arial;
+}
+section .right{
+    /* background-color: greenyellow; */
+    width: 800px;
+    height: 600px;
+}
+form{
+    padding-top: 20px;
+    margin-top: 80px;
+    background-color: white;
+    width: 510px;
+    height: 345px;
+    align-items: center;
+    margin-left: 30px;
+}
+form div{
+    margin: px;
+    text-align: center;
+    font-size: 30px;
+}
+
+form input[type="text"]{
+    padding: 8px;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 450px;
+    height: 40px;
+    box-shadow: 1px 1px 3px blue;
+    padding-left: 15px;
+    border: 0px gainsboro;
+    border: none;
+}
+
+form button[type="button1"]{
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    width: 475px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    border: 0px gainsboro;
+    border: none;
+}
+
+form button[type="button2"]{
+    cursor: pointer;
+    color: blue;
+    background-color: white;
+    width: 360px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    border: none;
+    
+    
+}
+.line hr{
+    width: 450px;
+    align-items: center;
+}
+form button[type="button3"]{
+    cursor: pointer;
+    color: white;
+    background-color: green;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+}
+section .buttom{
+    margin-top: 30px;
+    margin-left: 115px;
+    font-weight: 600;
+    font-family: arial;
+}
+.buttom a{
+    outline: 0px;
+    color: black;
+    /* background-color: bisque; */
+    text-decoration: none;
+}
+
